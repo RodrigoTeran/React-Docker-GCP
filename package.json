@@ -19,7 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "cypress open",
+    "cypress:open": "cypress open",
+    "test": "cypress run",
     "prepare": "husky install",
     "eject": "react-scripts eject"
   },
